@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyNotes</string>
+    <string name="add_new">Add new</string>
+    <string name="save">Save</string>
+    <string name="important_task">Important task</string>
+    <string name="date_created">Date created:</string>
+    <string name="date">24/04/2021</string>
 </resources>
