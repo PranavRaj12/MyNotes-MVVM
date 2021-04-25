@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:padding="15sp">
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:strokeWidth="1dp"
+    android:layout_margin="5sp"
+    app:strokeColor="@color/grey"
+    app:cardElevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:padding="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <com.google.android.material.checkbox.MaterialCheckBox
         android:id="@+id/check_box_completed"
@@ -16,8 +28,8 @@
         android:id="@+id/task_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="example task"
-        android:layout_marginLeft="10sp"
+        android:text=""
+        android:layout_marginStart="10sp"
         android:textColor="@color/black"
         android:layout_alignTop="@id/check_box_completed"
         android:layout_alignBottom="@+id/check_box_completed"
@@ -38,3 +50,7 @@
     </ImageView>
 
 </RelativeLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>

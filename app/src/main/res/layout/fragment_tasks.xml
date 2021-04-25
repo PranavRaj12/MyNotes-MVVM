@@ -16,6 +16,7 @@
  <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
      android:layout_margin="20sp"
      android:text="@string/add_new"
+     android:backgroundTint="@color/colorAccent"
      app:icon="@drawable/ic_baseline_add_24"
      android:layout_gravity="bottom|end"
      android:layout_width="wrap_content"
