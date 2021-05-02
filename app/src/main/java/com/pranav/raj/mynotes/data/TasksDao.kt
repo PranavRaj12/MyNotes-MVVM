@@ -1,7 +1,6 @@
 package com.pranav.raj.mynotes.data
 
 import androidx.room.*
-import com.pranav.raj.mynotes.ui.tasks.SortOrder
 import kotlinx.coroutines.flow.Flow
 
 @Dao
