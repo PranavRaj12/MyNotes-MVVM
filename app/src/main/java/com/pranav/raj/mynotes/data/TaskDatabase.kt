@@ -24,12 +24,10 @@ abstract class TaskDatabase : RoomDatabase(){
             val dao = database.get().tasksDao()
 
             applicationScope.launch {
-
                 dao.insert(Task("Learn kotlin"))
                 dao.insert(Task("Learn MVVM architecture", important = true))
                 dao.insert(Task("Android basics", completed = true))
             }
-
         }
     }
 }
